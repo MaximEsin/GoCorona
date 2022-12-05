@@ -19,8 +19,11 @@
     <div class="wrapper">
       <header class="header">
         <div class="header__container">
-          <a href="" class="header__logo"></a>
-          <nav class="header__menu menu">
+          <a href="" class="header__logo">
+            <img src="img/logo.svg" alt="Logo" />
+          </a>
+          <div class="header__menu menu">
+            <nav id="menu" class="menu__body"></nav>
             <ul class="menu__list">
               <li class="menu__item">
                 <a href="" class="menu__link">HOME</a>
@@ -35,9 +38,10 @@
                 <a href="" class="menu__link">CONTACT US</a>
               </li>
             </ul>
-          </nav>
+          </div>
           <div class="header__button">
             <a href="" class="button button-blue">DOWNLOAD</a>
+            <a href="#menu" class="icon-menu"><span></span></a>
           </div>
         </div>
       </header>
