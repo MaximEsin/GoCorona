@@ -466,6 +466,7 @@ body {
 }
 .experts__block-text {
   max-width: 400px;
+  margin-left: 35px;
 }
 
 .statistics-experts {
@@ -476,7 +477,7 @@ body {
   border-radius: 16px;
   position: relative;
   margin: 0 0 80px 0;
-  margin-left: 150px;
+  margin-left: 200px;
 }
 @media (max-width: 767.98px) {
   .statistics-experts {
